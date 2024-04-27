@@ -32,6 +32,8 @@ Permissioned access and log-ins for network users Gateway access to the Internet
  ![image](https://github.com/vasanthkumarch/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/36288975/00bff30b-42fc-42d5-9540-285d270e41cb)
 7.using AT commands configure end device in serial port utility
 AT Commands to set initially (Mandatory)
+```
+AT Commands to set initially (Mandatory)
  AT+FDR // To do factory data reset
  AT+NJM=1 // To set OTAA mode
  AT+ADR=1 // To enable the ADR
@@ -43,6 +45,7 @@ AT Commands to set initially (Mandatory)
  AT+APPEUI=XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX //
 To set APP Key
  ATZ // To take effective action on below settings (As like saving)
+```
 
 
 
